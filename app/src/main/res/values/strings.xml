@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Track Friends</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_success">login success</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <string name="no_one_send_you_friend_request_txt">No one send you friend request make \nyour profile more attractive to \nget friend request</string>
+    <string name="you_have_no_friend_request">You have no friend request</string>
+    <string name="looks_like_you_haven_t_any_friend_find_nsome_and_make_connection_nwith_them">Looks like you haven\'t any friend, find some and make connection with them</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="upload_id_card">Upload Id Card</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+
+    // Cropper
+    <!--Picker text-->
+    <string name="crop_image_activity_title">Crop Image</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="result_image_desc">crop result</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="gps_not_enable">GPS not enable...</string>
+    <string name="do_you_want_to_enable">GPS is disabled please enable first.</string>
+    <string name="no_internet_found">No internet found</string>
+    <string name="settings">Settings</string>
+
+
+</resources>

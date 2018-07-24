@@ -1,0 +1,278 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.trackfriends.fragment.ProfileyFragment">
+
+  <android.support.v4.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/_245sdp"
+              >
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/_200sdp"
+                  android:background="@color/colorPrimaryDark" />
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/_200sdp"
+                  android:background="@color/colorPrimaryDark"
+                  android:layout_marginLeft="@dimen/_2sdp"
+                  android:layout_marginRight="@dimen/_2sdp"
+                  android:id="@+id/relativeLayout">
+
+                  <ImageView
+                      android:id="@+id/profile_img_bg"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_centerInParent="true"
+                      android:src="@drawable/place_holder_img"
+                      android:scaleType="centerCrop"/>
+
+                  <View
+                      android:layout_width="match_parent"
+                      android:layout_height="@dimen/_200sdp"
+                      android:alpha="0.5"
+                      android:background="@color/colorBlack"/>
+
+                  <ImageView
+                      android:id="@+id/edit_profile"
+                      android:layout_width="@dimen/_45sdp"
+                      android:layout_height="@dimen/_45sdp"
+                      android:padding="@dimen/_14sdp"
+                      android:layout_alignParentRight="true"
+                      android:layout_marginTop="@dimen/_10sdp"
+                      android:layout_marginRight="@dimen/_10sdp"
+                      android:tint="@color/colorWhite"
+                      android:src="@drawable/pencil"/>
+
+              </RelativeLayout>
+
+
+
+              <android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/_60sdp"
+                  app:cardBackgroundColor="@color/colorWhite"
+                  android:layout_marginTop="@dimen/_175sdp"
+                  android:layout_marginRight="@dimen/_10sdp"
+                  app:cardElevation="@dimen/_2sdp"
+                  android:elevation="@dimen/_4sdp"
+                  app:cardCornerRadius="@dimen/_4sdp"
+                  android:layout_marginLeft="@dimen/_10sdp">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:padding="@dimen/_10sdp"
+                      android:weightSum="2"
+                      android:orientation="vertical">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="center|start"
+                          android:layout_weight="1">
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="@dimen/_14sdp"
+                              android:text="Name:"
+                              android:fontFamily="@font/josefinsans_regular"
+                              android:textColor="@color/colorBlack"/>
+
+                          <TextView
+                              android:id="@+id/name"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="@dimen/_14sdp"
+                              android:text="Anil Chourasiya"
+                              android:layout_alignParentRight="true"
+                              android:layout_marginLeft="@dimen/_10sdp"
+                              android:fontFamily="@font/josefinsans_regular"
+                              android:textColor="@color/colorBlack"/>
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_gravity="center"
+                          android:gravity="center|start"
+                          android:layout_weight="1">
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="@dimen/_14sdp"
+                              android:text="Email:"
+                              android:fontFamily="@font/josefinsans_regular"
+                              android:textColor="@color/colorBlack"/>
+
+                          <TextView
+                              android:id="@+id/email"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textSize="@dimen/_14sdp"
+                              android:text="anil@gmail.com"
+                              android:layout_alignParentRight="true"
+                              android:layout_marginLeft="@dimen/_10sdp"
+                              android:fontFamily="@font/josefinsans_regular"
+                              android:textColor="@color/colorBlack"/>
+
+                      </LinearLayout>
+
+
+                  </LinearLayout>
+
+
+              </android.support.v7.widget.CardView>
+
+
+          </RelativeLayout>
+
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/_60sdp"
+              app:cardBackgroundColor="@color/colorWhite"
+              android:layout_marginRight="@dimen/_10sdp"
+              app:cardElevation="@dimen/_2sdp"
+              android:elevation="@dimen/_4sdp"
+              app:cardCornerRadius="@dimen/_4sdp"
+              android:layout_marginLeft="@dimen/_10sdp">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="@dimen/_10sdp"
+                  android:weightSum="2"
+                  android:orientation="vertical">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center|start"
+                      android:layout_weight="1">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/_14sdp"
+                          android:text="Contact:"
+                          android:fontFamily="@font/josefinsans_regular"
+                          android:textColor="@color/colorBlack"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/_14sdp"
+                          android:text="9981032734"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginLeft="@dimen/_10sdp"
+                          android:fontFamily="@font/josefinsans_regular"
+                          android:textColor="@color/colorBlack"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_gravity="center"
+                      android:gravity="center|start"
+                      android:layout_weight="1">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/_14sdp"
+                          android:text="Gender:"
+                          android:fontFamily="@font/josefinsans_regular"
+                          android:textColor="@color/colorBlack"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/_14sdp"
+                          android:text="Male"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginLeft="@dimen/_10sdp"
+                          android:fontFamily="@font/josefinsans_regular"
+                          android:textColor="@color/colorBlack"/>
+
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+
+          </android.support.v7.widget.CardView>
+
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="@dimen/_70sdp"
+              app:cardBackgroundColor="@color/colorWhite"
+              android:layout_marginRight="@dimen/_10sdp"
+              android:layout_marginTop="@dimen/_10sdp"
+              app:cardElevation="@dimen/_2sdp"
+              android:elevation="@dimen/_4sdp"
+              app:cardCornerRadius="@dimen/_4sdp"
+              android:layout_marginBottom="@dimen/_5sdp"
+              android:layout_marginLeft="@dimen/_10sdp">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="@dimen/_10sdp"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:textSize="@dimen/_14sdp"
+                      android:text="Address:"
+                      android:fontFamily="@font/josefinsans_regular"
+                      android:textColor="@color/colorBlack" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:textSize="@dimen/_12sdp"
+                      android:text="busbdusbdusbdsubdsubdsudbsudbsudbsdusbdsudbsudbsdusbdusbdusdbsudbsudbsudbsudbsudbsudbsudbsudbsudbsudbsudbsudbsudbsudbsubdsubdsubdsubdsubdsubdsubdsudbsudb"
+                      android:layout_marginTop="@dimen/_3sdp"
+                      android:layout_alignParentRight="true"
+                      android:fontFamily="@font/josefinsans_regular"
+                      android:textColor="@color/colorBlack"
+                      />
+
+
+              </LinearLayout>
+
+
+          </android.support.v7.widget.CardView>
+
+      </LinearLayout>
+
+
+  </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

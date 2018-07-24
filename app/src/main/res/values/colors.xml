@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#404C94</color>
+    <color name="colorPrimaryDark">#404C94</color>
+    <color name="colorAccent">#a51d29</color>
+    <color name="colorBlack">#333333</color>
+    <color name="colorGray">#828282</color>
+    <color name="colorLightGray">#e8e8e8</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBgButton">#a51d29</color>
+    <color name="colorBgFacebook">#475993</color>
+    <color name="colorBGGooglePlus">#d34836</color>
+    <color name="colorWhiteTransparent">#00FFFFFF</color>
+    <color name="colorAcceptContinue">#828282</color>
+    <color name="colorPurple">#8034ad</color>
+    <color name="coloryellow">#f5b400</color>
+    <color name="lightcoloryellow">#FEF200</color>
+    <color name="colorgreen">#0f9102</color>
+    <!--<color name="colorRipple">#A6a51d29</color>-->
+    <color name="colorRipple">#c23642</color>
+    <color name="very_light_gray">#f2f2f2</color>
+
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+
+</resources>

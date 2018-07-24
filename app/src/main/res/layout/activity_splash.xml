@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_bg"
+    tools:context="com.trackfriends.activity.SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorWhite"
+        android:text="Track Friends..."
+        android:fontFamily="@font/josefinsans_regular"
+        android:gravity="center"
+        android:textSize="@dimen/_40sdp"/>
+
+</RelativeLayout>
