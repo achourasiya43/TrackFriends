@@ -69,6 +69,7 @@ class LoginActivity : AppCompatActivity() {
                     } else {
                         loading_view?.visibility = View.GONE
                         Toast.makeText(this,"Somthing went wrong",Toast.LENGTH_SHORT).show()
+
                     }
                 }
     }
